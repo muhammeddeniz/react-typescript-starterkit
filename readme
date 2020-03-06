@@ -1,0 +1,4 @@
+just push "react-ts-starterkit-md" in the "node_modules". and than write the terminal npm install
+for run =>
+webpack
+npm start

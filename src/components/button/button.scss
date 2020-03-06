@@ -1,0 +1,76 @@
+@import './btn-variables.scss';
+
+.primary {
+    background-color: $primary_bc_color;
+    color: $primary_color;
+    font-size: $button_font_size;
+    font-family: $button_font;
+    border-radius: $button_border;
+    border :$border ;
+    padding : $padding_tb $padding_lr; 
+
+    &:hover{
+        color : $primary_color;
+        background-color: $primary_hover_bc;
+    }
+}
+.danger{
+    color: $danger_color;
+    background-color: $danger_bg_color;
+    color: $danger_color;
+    font-size: $button_font_size;
+    font-family: $button_font;
+    border-radius: $button_border;
+    border :$border ;
+    padding : $padding_tb $padding_lr; 
+
+
+    &:hover{
+        color : $danger_color;
+        background-color: $danger_hover_bc_color;
+    }
+}
+.secondary{
+    background-color: $secondary_bg_color;
+    color: $secondary_color;
+    font-size: $button_font_size;
+    font-family: $button_font;
+    border-radius: $button_border;
+    border :$border ;
+    padding : $padding_tb $padding_lr; 
+
+    &:hover{
+        color : $secondary_color;
+        background-color: $secondary_hover_bc_color;
+    }
+
+}
+
+.warning{
+    background-color: $warning_bg_color;
+    color: $warning_color;
+    font-size: $button_font_size;
+    font-family: $button_font;
+    border-radius: $button_border;
+    border :$border ;
+    padding : $padding_tb $padding_lr; 
+
+    &:hover{
+        color : $warning_color;
+        background-color: $warning_hover_bc_color
+    }
+}
+.info{
+    background-color: $info_bg_color;
+    color: $info_color;
+    font-size: $button_font_size;
+    font-family: $button_font;
+    border-radius: $button_border;
+    border :$border ;
+    padding : $padding_tb $padding_lr; 
+
+    &:hover{
+        color : $info_color;
+        background-color: $info_hover_bc_color;
+    }
+}

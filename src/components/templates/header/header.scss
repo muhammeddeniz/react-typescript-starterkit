@@ -1,0 +1,35 @@
+@import './header-veriables.scss';
+
+.header{
+    margin-top: $all-lintItems-top;
+
+    .links {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            
+        }
+    }
+
+    .link {
+        text-decoration: none;
+        background-color: $link-bg-color;
+        margin: $margin-lr $margin-tb;
+        font-size : $font-size;
+        color : $link-color;
+        padding: $padding;
+        border-radius: $border-radius;
+        border : 0px solid;
+        
+        &:hover {
+            background-color: $link-hover-bg-color;
+            color: $link-hover-color;
+            
+        }
+    }
+    .title {
+        font-size: $head-title-size;
+        margin: $head-title-margin;
+    }
+}

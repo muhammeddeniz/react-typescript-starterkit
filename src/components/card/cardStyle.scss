@@ -1,0 +1,31 @@
+@import 'card-variables';
+
+.card {
+    font-size: $general-text-size;
+    background-color: $general-bg-color;
+    display: block;
+    width: $width-size;    
+    height: $height-size;
+    border-radius: $card-border;
+    
+    .name{
+        background-color: $nameArea-bg-color;
+        border-radius: $card-border;
+        padding: $name-padding;    
+        font-size: $name-text-size;
+        color: $name-font-color;
+        text-align : center;
+    }
+
+    .content{
+        background-color: $content-bg-color ;
+        padding: $content-padding;
+        text-align: center;
+    }
+
+    .date{
+        background-color: $date-bg-color;
+        text-align: right;
+        padding: $date-padding;
+    }
+}
